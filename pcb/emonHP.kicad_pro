@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -127,7 +127,7 @@
         "min_track_width": 0.125,
         "min_via_annular_width": 0.19999999999999998,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -391,10 +391,10 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "warning",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
