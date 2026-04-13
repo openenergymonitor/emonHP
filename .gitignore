@@ -1,16 +1,3 @@
-# Firmware compilation intermediates
-*.o
-build/
-compile_commands.json
-.cache/
-.md.backup
-*.backup
-hb*.png
-venv/
-*.test
-*.tgz
-qfp*
-
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
@@ -43,3 +30,4 @@ fp-info-cache
 TODO
 output-*/
 *.DS_Store
+production*/

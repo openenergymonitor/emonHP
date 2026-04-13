@@ -4,4 +4,5 @@
   (lib (name "valcon-usb")(type "KiCad")(uri "${KIPRJMOD}/../footprints/valcon-usb.pretty")(options "")(descr ""))
   (lib (name "RPi-SMD")(type "KiCad")(uri "${KIPRJMOD}/../footprints/RPi-SMD.pretty")(options "")(descr ""))
   (lib (name "ltst-s326")(type "KiCad")(uri "${KIPRJMOD}/../footprints/ltst-s326.pretty")(options "")(descr ""))
+  (lib (name "emonHP_FP")(type "KiCad")(uri "/Users/awjlogan/Documents/Projects/emonHP/footprints/emonHP_FP.pretty")(options "")(descr ""))
 )
