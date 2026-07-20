@@ -31,3 +31,4 @@ TODO
 output-*/
 *.DS_Store
 production*/
+*.lck

@@ -191,6 +191,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.25,
         0.3
       ],
       "tuning_pattern_settings": {
@@ -742,10 +743,6 @@
     [
       "e540f5db-04c1-4498-b8cb-6e99d150012c",
       "MBus"
-    ],
-    [
-      "4e2188bc-81fb-4771-8a06-3a142deeb7aa",
-      "ACDetect"
     ],
     [
       "de51fbea-fdbf-47e1-930a-00559b53efbd",

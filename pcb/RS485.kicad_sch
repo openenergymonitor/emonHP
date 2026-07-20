@@ -3,7 +3,15 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "11618803-f809-492a-8d35-76dbca120077")
-	(paper "A4")
+	(paper "A2")
+	(title_block
+		(title "emonHP")
+		(date "2026-07-20")
+		(rev "0.2")
+		(company "Tilt Ltd / OpenEnergyMonitor")
+		(comment 1 "Creative Commons Attribution-ShareAlike 4.0 License")
+		(comment 2 "Commit: gitrev")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
