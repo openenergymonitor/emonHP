@@ -8,8 +8,7 @@ The system provides the following interfaces:
 
 - MBUS
 - RS485
-- AC sense
-- OneWire
+- Level, pulse, and OneWire inputs
 - USB-C
 - 40-pin Raspberry Pi header
 
@@ -24,14 +23,10 @@ The system provides the following interfaces:
 ### emonHP
 
 > [!NOTE]
-Setting up as an integrated emonHP system requires a Raspberry Pi 4. This exposes extra UART ports on the 40-pin header which are not available on older versions.
+Setting up as an integrated emonHP system requires a Raspberry Pi 4 or 5. These expose extra UART ports on the 40-pin header which are not available on older versions.
 
 Connect the Raspberry Pi to the 40 pin header.
 
 > [!WARNING]
 Power must only be applied to one of the emonHP's USB-C port *or* the Raspberry Pi's power port, never both.
-
-### Standalone
-
-Connect to a host computer through the USB-C port. The emonHP will enumerate as 3 serial ports.
 
