@@ -1,6 +1,6 @@
 # emonHP - Heat Pump Monitoring
 
-**As of Aug 2026 emonHP V2 hardware is not yet releasd**
+**As of Aug 2026 emonHP V2 hardware is not yet released**
 
 ## Introduction
 
