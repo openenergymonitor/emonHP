@@ -1,8 +1,10 @@
 # emonHP - Heat Pump Monitoring
 
+**As of Aug 2026 emonHP V2 hardware is not yet releasd**
+
 ## Introduction
 
-_emonHP_ is a system for monitoring heat pump operation. It is designed to work with [OpenEnergyMonitor](https://openenergymonitor.org), but can be used as a standalone system.
+_emonHP V2_ is a system for monitoring heat pump operation. It is designed to work with [OpenEnergyMonitor](https://openenergymonitor.org), but can be used as a standalone system.
 
 The system provides the following interfaces:
 
