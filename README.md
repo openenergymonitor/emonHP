@@ -10,9 +10,13 @@ The system provides the following interfaces:
 
 - MBUS
 - RS485
-- Level, pulse, and OneWire inputs
-- USB-C
+- DHW, pulse, and OneWire (DS218B20 temperature) inputs
+- USB-C power 
 - 40-pin Raspberry Pi header
+- OLED I2C display
+- RFM69CW RF transceiver 
+
+The board uses a STM32C031K6U microcontroller
 
 ## Getting started
 
@@ -35,5 +39,9 @@ Power must only be applied to one of the emonHP's USB-C port *or* the Raspberry 
 ### Connections 
 
 - DHW Status: Signal 1 input - GPIO27 - Pin 13
+
+### Firmware & Rasi Setup 
+
+See firmware repo: https://github.com/openenergymonitor/emonhp-rs
 
 
