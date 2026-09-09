@@ -1,6 +1,6 @@
 # emonHP - Heat Pump Monitoring
 
-**As of Aug 2026 emonHP V2 hardware is not yet released**
+**As of Aug 2026 emonHP2 hardware is not yet released**
 
 ## Introduction
 
@@ -22,7 +22,7 @@ The system provides the following interfaces:
 - Build your own!
   - With [KiCad](https://www.kicad.org/) installed, run `./generate.py` in the `pcb` directory (tested on Linux and macOS only) to generate manufacturing files (KiCad PCB, Gerbers, BoM).
 
-### emonHP
+### emonHP2
 
 > [!NOTE]
 Setting up as an integrated emonHP system requires a Raspberry Pi 4 or 5. These expose extra UART ports on the 40-pin header which are not available on older versions.
@@ -31,4 +31,9 @@ Connect the Raspberry Pi to the 40 pin header.
 
 > [!WARNING]
 Power must only be applied to one of the emonHP's USB-C port *or* the Raspberry Pi's power port, never both.
+
+### Connections 
+
+- DHW Status: Signal 1 input - GPIO27 - Pin 13
+
 
