@@ -38,7 +38,9 @@ Power must only be applied to one of the emonHP's USB-C port *or* the Raspberry 
 
 ### Connections 
 
-- DHW Status: Signal 1 input - GPIO27 - Pin 13
+- DHW Status: Signal 1 input - GPIO27 - Pin 13 
+- Pulse: Signal 2 input - GPIO22 - Pin15 - soft-pull down enabled (NOT TESTED)
+- OneWire (DS18B20 ) - Signal 3 input - GPIO0 (NOT WORKING YET)
 
 ### Firmware & Rasi Setup 
 
