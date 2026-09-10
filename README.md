@@ -44,6 +44,8 @@ Power must only be applied to one of the emonHP's USB-C port *or* the Raspberry 
 
 \* Set `dtoverlay=w1-gpio,gpiopin=0` in `/boot/firmware/config.txt` to support OneWire on GPIO0
 
+ - Push button - GPIO17 - pin11: set `push_btn = Button(17, pull_up=True, bounce_time=0.1, hold_time=5)` in `emonPiLCD2.py` 
+
 ### Firmware & Rasi Setup 
 
 See firmware repo: https://github.com/openenergymonitor/emonhp-rs
